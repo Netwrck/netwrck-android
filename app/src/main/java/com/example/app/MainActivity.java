@@ -1,4 +1,4 @@
-package com.example.app;
+package com.netwrck.app;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         mWebView.setWebViewClient(new MyWebViewClient());
 
         // REMOTE RESOURCE
-        // mWebView.loadUrl("https://example.com");
+         mWebView.loadUrl("https://netwrck.com");
 
         // LOCAL RESOURCE
         // mWebView.loadUrl("file:///android_asset/index.html");
